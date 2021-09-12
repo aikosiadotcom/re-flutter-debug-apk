@@ -46,7 +46,7 @@ function isValid(str){
     // const namespace = "./camis/lib/";
     
     const module = "file:///Z:/FLUTTER/publish/";
-    const namespace = "./";
+    const namespace = "./result/";
     for await (const line of rl) {
         isSave = line.includes(module);
         if(isSave){
